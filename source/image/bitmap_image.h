@@ -42,6 +42,20 @@ public:
 
         return pictureVec.at(y).at(x);
     }
+    [[nodiscard]] std::array<BitmapImage::BitmapPixel, 16> get_row(index_type y, index_type x) const {
+        std::array<BitmapImage::BitmapPixel, 16> row;
+        if ((0 > y || height < y) ||
+            (0 > x ||  width < x) ||
+            (x % 16 != 0))
+        {
+            throw std::exception{};
+        }
+        for (int i = 0; i < 16; i++){
+            row[i] = get_pixel(y, x+i);
+        }
+
+        return row;
+    }
 
     void set_pixel(index_type y, index_type x, const BitmapPixel& new_pixel) {//konstante referenz
         if ((0 > y || height < y) ||
@@ -50,6 +64,36 @@ public:
         }
 
         pictureVec.at(y).at(x) = new_pixel; //pixel wird kopiert
+    }
+
+    void set_row(index_type y, index_type x, std::array<BitmapImage::BitmapPixel, 16> row) const {
+        if ((0 > y || height < y) ||
+            (0 > x ||  width < x) ||
+            (x % 16 != 0))
+        {
+            throw std::exception{};
+        }
+        for (int i = 0; i < 16; i++){
+            set_pixel(y, x+i, row[i]);
+        }
+    }
+
+    void set_block(index_type y, index_type x, std::array<std::array<row_type, 3>, 3> block) const {
+        if ((0 > y || height < y) ||
+            (0 > x ||  width < x) ||
+            (x % 48 != 0 || y % 3 != 0))
+        {
+            throw std::exception{};
+        }
+        // actual dimensions
+        int blockWidth = (current.at(0).at(2) != 0) ? 3 : ((current.at(0).at(1) != 0) ? 2 : 1);
+        int blockHeight = (current.at(2).at(0) != 0) ? 3 : ((current.at(1).at(0) != 0) ? 2 : 1);
+
+        for (int ix = 0; ix < blockWidth; ix++){
+            for(int iy = 0; iy < blockHeight; iy++){
+                set_row(y + iy, x + ix, block[iy][ix]);
+            }
+        }
     }
 
     [[nodiscard]] BitmapImage transpose() const {

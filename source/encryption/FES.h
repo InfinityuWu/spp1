@@ -102,12 +102,14 @@ public:
     static BitmapImage encrypt(BitmapImage image, key_type key) {
 
         BitmapImage encryptedImage = BitmapImage(image.get_height(), image.get_width());
-        block_type keyBlock = convert_key_to_block(key);
-
-        for(int i = 0; i < image.get_height(); i + 3) {
 
 
-
+        for(int y = 0; y < image.get_height(); y + 3) {
+            block_type previous = convert_key_to_block(key);
+            for(int x = 0; x < image.get_width(); x + 48){
+                block_type current = image.get_block(y,x);
+                image.set_block(y, x, encrypt_block(current, previous));
+            }
         }
 
         return encryptedImage;
