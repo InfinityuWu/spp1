@@ -65,24 +65,27 @@ public:
 
     //3d FEHLT NOCH!!! NOCH KEINE RANDBEHANDLUNG
     static block_type encrypt_block(block_type current, block_type previous) {
+
         block_type encryptedBlock = block_type();
         row_type allSoFarCombinedRows;
 
-        for (int y = 0; y < 3; y++) {
-            for (int x = 0; x < 3; x++) {
+		// actual dimensions
+		int blockWidth = (current.at(0).at(2) != 0) ? 3 : ((current.at(0).at(1) != 0) ? 2 : 1);
+		int blockHeight = (current.at(2).at(0) != 0) ? 3 : ((current.at(1).at(0) != 0) ? 2 : 1);
 
-                if(y == 0 && x == 0){ //weil erste Reihe keine vorherigen Kombinierten Reihen
-                    encryptedBlock.at(y).at(x) = combine_rows(current.at(y).at(x), previous.at(y).at(x));
-                    allSoFarCombinedRows = encryptedBlock.at(y).at(x);
-                }
-                else {
-                    encryptedBlock.at(y).at(x) = combine_rows(combine_rows(current.at(y).at(x), previous.at(y).at(x)), allSoFarCombinedRows);
-                    allSoFarCombinedRows = encryptedBlock.at(y).at(x);
-                }
-            }
-        }
+		if (blockWidth == 3 && blockHeight == 3) {
+			
+			for (int y = 0; y < 3; y++) {
+				for (int x = 0; x < 3; x++) {
+					encryptedBlock.at(y).at(x) = combine_rows(current.at(y).at(x), previous.at(y).at(x));
+					for (int h = 0; h <= y; h++) for (int w = 0; w < x; w++) encrypt_block.at(y).at(x) = combine_rows(current.at(y).at(x), encryptedBlock.at(h).at(w));
+				}
+			}
+			
+		}
 
         return encryptedBlock;
+        
     }
 
 
