@@ -1,0 +1,21 @@
+# ninja log v5
+0	75	7215151877238491	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	5e9444f48781c8d1
+0	75	7215151877238491	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	5e9444f48781c8d1
+75	6101	7215151937486000	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	71622ca55c9b6380
+75	6101	7215151937486000	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	71622ca55c9b6380
+6101	6267	0	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	3e3c80421e4cf1fa
+6101	6267	0	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	3e3c80421e4cf1fa
+6267	6333	7215151939819159	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	10aca98f37392f52
+6267	6333	7215151939819159	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	10aca98f37392f52
+6333	6402	7215151940502647	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	862fa227c2c86f6
+6333	6402	7215151940502647	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	862fa227c2c86f6
+6402	6472	7215151941218515	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	2867611af244043f
+6402	6472	7215151941218515	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	2867611af244043f
+6472	6542	7215151941898593	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	193367ad04e50c61
+6472	6542	7215151941898593	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	193367ad04e50c61
+6542	6609	7215151942592711	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	7bff94bec9b55da0
+6542	6609	7215151942592711	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	7bff94bec9b55da0
+6609	6702	7215151943507654	CMakeFiles/googletest-populate-complete	c9671ed8f582822d
+6609	6702	7215151943507654	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	c9671ed8f582822d
+6609	6702	7215151943507654	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	c9671ed8f582822d
+6609	6702	7215151943507654	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	c9671ed8f582822d

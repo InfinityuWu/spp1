@@ -1,0 +1,1471 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cea0yy"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cea0yy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cea0yy
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_e1ea8 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj -c "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1ea8.dir/'
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e1ea8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\cctWtLxh.s
+        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1ea8.dir/'
+         as -v -o CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\cctWtLxh.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.'
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj -o cmTC_e1ea8.exe -Wl,--out-implib,libcmTC_e1ea8.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Users/Julian\\ Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1ea8.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e1ea8.'
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_e1ea8.exe C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_e1ea8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1ea8.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e1ea8.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/include]
+        collapse include dir [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/include;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cea0yy]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_e1ea8 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj -c "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1ea8.dir/']
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e1ea8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\cctWtLxh.s]
+        ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1ea8.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\cctWtLxh.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj -o cmTC_e1ea8.exe -Wl --out-implib libcmTC_e1ea8.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Julian\\ Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1ea8.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e1ea8.']
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_e1ea8.exe C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_e1ea8.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_e1ea8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1ea8.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e1ea8.']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-19l156"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-19l156"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-19l156
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_345c2 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_345c2.dir/'
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_345c2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccHNOjAL.s
+        GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: e75de627edc3c57e31324b930b15b056
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_345c2.dir/'
+         as -v -o CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccHNOjAL.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_345c2.exe -Wl,--out-implib,libcmTC_345c2.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE
+        COLLECT_LTO_WRAPPER=C:/Users/Julian\\ Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_345c2.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_345c2.'
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_345c2.exe C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_345c2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_345c2.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_345c2.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+          add: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+          add: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+          add: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++] ==> [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        collapse include dir [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32] ==> [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward] ==> [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        collapse include dir [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/include]
+        collapse include dir [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/include;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-19l156]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_345c2 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_345c2.dir/']
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_345c2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccHNOjAL.s]
+        ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_345c2.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccHNOjAL.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_345c2.exe -Wl --out-implib libcmTC_345c2.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Julian\\ Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_345c2.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_345c2.']
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_345c2.exe C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_345c2.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_345c2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_345c2.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_345c2.']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "cmake/ProjectLibraries.cmake:8 (find_package)"
+      - "CMakeLists.txt:25 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rwrv9n"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rwrv9n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rwrv9n
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_e8b62 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_e8b62.dir/src.c.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rwrv9n/src.c"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_e8b62.dir/src.c.obj -o cmTC_e8b62.exe -Wl,--out-implib,libcmTC_e8b62.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "cmake/ProjectLibraries.cmake:10 (find_package)"
+      - "CMakeLists.txt:25 (include)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v4wois"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v4wois"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v4wois
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_03aad && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v4wois/OpenMPTryFlag.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03aad.dir/'
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v4wois/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_03aad.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=nocona -mthreads -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccM7krYD.s
+        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03aad.dir/'
+         as -v -o CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccM7krYD.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.'
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe -fopenmp -v  CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj -o cmTC_03aad.exe -Wl,--out-implib,libcmTC_03aad.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Users/Julian\\ Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        Reading specs from C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_03aad.exe' '-v' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_03aad.'
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_03aad.exe C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_03aad.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_03aad.exe' '-v' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_03aad.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:262 (message)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "cmake/ProjectLibraries.cmake:10 (find_package)"
+      - "CMakeLists.txt:25 (include)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v4wois]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_03aad && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v4wois/OpenMPTryFlag.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03aad.dir/']
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v4wois/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_03aad.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=nocona -mthreads -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccM7krYD.s]
+        ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03aad.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccM7krYD.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.']
+        ignore line: [[2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe -fopenmp -v  CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj -o cmTC_03aad.exe -Wl --out-implib libcmTC_03aad.dll.a -Wl --major-image-version 0 --minor-image-version 0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Julian\\ Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [Reading specs from C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_03aad.exe' '-v' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_03aad.']
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_03aad.exe C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_03aad.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_03aad.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_03aad.exe' '-v' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_03aad.']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "cmake/ProjectLibraries.cmake:10 (find_package)"
+      - "CMakeLists.txt:25 (include)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k6x211"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k6x211"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k6x211
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_db4f6 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   -fopenmp -v -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k6x211/OpenMPTryFlag.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_db4f6.dir/'
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k6x211/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_db4f6.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -mthreads -std=gnu++20 -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccy6Qysb.s
+        GNU C++20 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: e75de627edc3c57e31324b930b15b056
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_db4f6.dir/'
+         as -v -o CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccy6Qysb.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.'
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -fopenmp -v  CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj -o cmTC_db4f6.exe -Wl,--out-implib,libcmTC_db4f6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE
+        COLLECT_LTO_WRAPPER=C:/Users/Julian\\ Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        Reading specs from C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_db4f6.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_db4f6.'
+         C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_db4f6.exe C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_db4f6.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lstdc++ -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_db4f6.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_db4f6.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:262 (message)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "cmake/ProjectLibraries.cmake:10 (find_package)"
+      - "CMakeLists.txt:25 (include)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k6x211]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_db4f6 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   -fopenmp -v -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k6x211/OpenMPTryFlag.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_db4f6.dir/']
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k6x211/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_db4f6.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -mthreads -std=gnu++20 -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccy6Qysb.s]
+        ignore line: [GNU C++20 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_db4f6.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj C:\\Users\\JULIAN~1\\AppData\\Local\\Temp\\ccy6Qysb.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.']
+        ignore line: [[2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -fopenmp -v  CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj -o cmTC_db4f6.exe -Wl --out-implib libcmTC_db4f6.dll.a -Wl --major-image-version 0 --minor-image-version 0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Julian\\ Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [Reading specs from C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_db4f6.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_db4f6.']
+        ignore line: [ C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_db4f6.exe C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_db4f6.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_db4f6.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lstdc++ -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_db4f6.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_db4f6.']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "cmake/ProjectLibraries.cmake:10 (find_package)"
+      - "CMakeLists.txt:25 (include)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oc2qpx"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oc2qpx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oc2qpx
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_3c10c && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe   -fopenmp -fdiagnostics-color=always -o CMakeFiles/cmTC_3c10c.dir/OpenMPCheckVersion.c.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oc2qpx/OpenMPCheckVersion.c"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe -fopenmp  CMakeFiles/cmTC_3c10c.dir/OpenMPCheckVersion.c.obj -o cmTC_3c10c.exe -Wl,--out-implib,libcmTC_3c10c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "cmake/ProjectLibraries.cmake:10 (find_package)"
+      - "CMakeLists.txt:25 (include)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l26tj2"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l26tj2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l26tj2
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_681ed && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   -fopenmp -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_681ed.dir/OpenMPCheckVersion.cpp.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l26tj2/OpenMPCheckVersion.cpp"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -fopenmp  CMakeFiles/cmTC_681ed.dir/OpenMPCheckVersion.cpp.obj -o cmTC_681ed.exe -Wl,--out-implib,libcmTC_681ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/fmt-src/support/cmake/cxx14.cmake:6 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/fmt-src/support/cmake/cxx14.cmake:16 (fmt_check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/fmt-src/CMakeLists.txt:127 (include)"
+    checks:
+      - "Performing Test has_std_20_flag"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-20qw8r"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-20qw8r"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-src/support/cmake"
+    buildResult:
+      variable: "has_std_20_flag"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-20qw8r
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_daf11 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -Dhas_std_20_flag  -std=gnu++20 -fdiagnostics-color=always   -std=c++20 -o CMakeFiles/cmTC_daf11.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-20qw8r/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_daf11.dir/src.cxx.obj -o cmTC_daf11.exe -Wl,--out-implib,libcmTC_daf11.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/fmt-src/support/cmake/cxx14.cmake:6 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/fmt-src/support/cmake/cxx14.cmake:17 (fmt_check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/fmt-src/CMakeLists.txt:127 (include)"
+    checks:
+      - "Performing Test has_std_2a_flag"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9qfghm"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9qfghm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-src/support/cmake"
+    buildResult:
+      variable: "has_std_2a_flag"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9qfghm
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_10767 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -Dhas_std_2a_flag  -std=gnu++20 -fdiagnostics-color=always   -std=c++2a -o CMakeFiles/cmTC_10767.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9qfghm/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_10767.dir/src.cxx.obj -o cmTC_10767.exe -Wl,--out-implib,libcmTC_10767.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:131 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rzlrjz"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rzlrjz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rzlrjz
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_0a379 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=shm_open -fdiagnostics-color=always -o CMakeFiles/cmTC_0a379.dir/CheckFunctionExists.c.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rzlrjz/CheckFunctionExists.c"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=shm_open  CMakeFiles/cmTC_0a379.dir/CheckFunctionExists.c.obj -o cmTC_0a379.exe -Wl,--out-implib,libcmTC_0a379.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lrt  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_0a379.exe 
+        cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=shm_open  CMakeFiles/cmTC_0a379.dir/CheckFunctionExists.c.obj -o cmTC_0a379.exe -Wl,--out-implib,libcmTC_0a379.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lrt  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        C:\\Users\\Julian Meister\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\232.9921.42\\bin\\mingw\\bin/ld.exe: cannot find -lrt: No such file or directory
+        collect2.exe: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:171 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_STD_CXX11"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hz39h0"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hz39h0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_STD_CXX11"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hz39h0
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_17b13 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11 -std=gnu++20 -fdiagnostics-color=always   -std=c++11 -o CMakeFiles/cmTC_17b13.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hz39h0/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  CMakeFiles/cmTC_17b13.dir/src.cxx.obj -o cmTC_17b13.exe -Wl,--out-implib,libcmTC_17b13.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:177 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-js8l8n"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-js8l8n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-js8l8n
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_fdd66 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WALL  -std=c++11  -Wall -std=gnu++20 -fdiagnostics-color=always   -Wall -o CMakeFiles/cmTC_fdd66.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-js8l8n/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  CMakeFiles/cmTC_fdd66.dir/src.cxx.obj -o cmTC_fdd66.exe -Wl,--out-implib,libcmTC_fdd66.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:178 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0zabiv"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0zabiv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0zabiv
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_1b665 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WEXTRA  -std=c++11  -Wall  -Wextra -std=gnu++20 -fdiagnostics-color=always   -Wextra -o CMakeFiles/cmTC_1b665.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0zabiv/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  CMakeFiles/cmTC_1b665.dir/src.cxx.obj -o cmTC_1b665.exe -Wl,--out-implib,libcmTC_1b665.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:179 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-htr1yk"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-htr1yk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-htr1yk
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_2c8a1 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WSHADOW  -std=c++11  -Wall  -Wextra  -Wshadow -std=gnu++20 -fdiagnostics-color=always   -Wshadow -o CMakeFiles/cmTC_2c8a1.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-htr1yk/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  CMakeFiles/cmTC_2c8a1.dir/src.cxx.obj -o cmTC_2c8a1.exe -Wl,--out-implib,libcmTC_2c8a1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:181 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q21vi4"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q21vi4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q21vi4
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_3ce4a && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WERROR  -std=c++11  -Wall  -Wextra  -Wshadow  -Werror -std=gnu++20 -fdiagnostics-color=always   -Werror -o CMakeFiles/cmTC_3ce4a.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q21vi4/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  -Werror  CMakeFiles/cmTC_3ce4a.dir/src.cxx.obj -o cmTC_3ce4a.exe -Wl,--out-implib,libcmTC_3ce4a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:187 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oo9a0k"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oo9a0k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oo9a0k
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_bf4ee && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override -std=gnu++20 -fdiagnostics-color=always   -Wsuggest-override -o CMakeFiles/cmTC_bf4ee.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oo9a0k/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  CMakeFiles/cmTC_bf4ee.dir/src.cxx.obj -o cmTC_bf4ee.exe -Wl,--out-implib,libcmTC_bf4ee.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:189 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-llrhid"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-llrhid"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-llrhid
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_e014d && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_PEDANTIC  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic -std=gnu++20 -fdiagnostics-color=always   -pedantic -o CMakeFiles/cmTC_e014d.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-llrhid/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  CMakeFiles/cmTC_e014d.dir/src.cxx.obj -o cmTC_e014d.exe -Wl,--out-implib,libcmTC_e014d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:190 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sjqmdp"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sjqmdp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sjqmdp
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_6d604 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors -std=gnu++20 -fdiagnostics-color=always   -pedantic-errors -o CMakeFiles/cmTC_6d604.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sjqmdp/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  CMakeFiles/cmTC_6d604.dir/src.cxx.obj -o cmTC_6d604.exe -Wl,--out-implib,libcmTC_6d604.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:191 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qac8da"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qac8da"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qac8da
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_9d098 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=gnu++20 -fdiagnostics-color=always   -Wshorten-64-to-32 -o CMakeFiles/cmTC_9d098.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qac8da/src.cxx"
+        FAILED: CMakeFiles/cmTC_9d098.dir/src.cxx.obj 
+        C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=gnu++20 -fdiagnostics-color=always   -Wshorten-64-to-32 -o CMakeFiles/cmTC_9d098.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qac8da/src.cxx"
+        G__~1.EXE: error: unrecognized command-line option '-Wshorten-64-to-32'
+        G__~1.EXE: error: unrecognized command-line option '-Wshorten-64-to-32'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:192 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o8ti5b"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o8ti5b"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o8ti5b
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_5d975 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -std=gnu++20 -fdiagnostics-color=always   -fstrict-aliasing -o CMakeFiles/cmTC_5d975.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o8ti5b/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  CMakeFiles/cmTC_5d975.dir/src.cxx.obj -o cmTC_5d975.exe -Wl,--out-implib,libcmTC_5d975.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:195 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nmxtc2"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nmxtc2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nmxtc2
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_97d40 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=gnu++20 -fdiagnostics-color=always   -Wno-deprecated-declarations -o CMakeFiles/cmTC_97d40.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nmxtc2/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  CMakeFiles/cmTC_97d40.dir/src.cxx.obj -o cmTC_97d40.exe -Wl,--out-implib,libcmTC_97d40.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:204 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v710bd"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v710bd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v710bd
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_c91bf && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WNO_DEPRECATED  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=gnu++20 -fdiagnostics-color=always   -Wno-deprecated -o CMakeFiles/cmTC_c91bf.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v710bd/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  CMakeFiles/cmTC_c91bf.dir/src.cxx.obj -o cmTC_c91bf.exe -Wl,--out-implib,libcmTC_c91bf.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:214 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfk11k"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfk11k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfk11k
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_3492a && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -std=gnu++20 -fdiagnostics-color=always   -Wstrict-aliasing -o CMakeFiles/cmTC_3492a.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tfk11k/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  CMakeFiles/cmTC_3492a.dir/src.cxx.obj -o cmTC_3492a.exe -Wl,--out-implib,libcmTC_3492a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:219 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dbwkly"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dbwkly"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dbwkly
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_b1c22 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WD654  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654 -std=gnu++20 -fdiagnostics-color=always   -wd654 -o CMakeFiles/cmTC_b1c22.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dbwkly/src.cxx"
+        FAILED: CMakeFiles/cmTC_b1c22.dir/src.cxx.obj 
+        C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WD654  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654 -std=gnu++20 -fdiagnostics-color=always   -wd654 -o CMakeFiles/cmTC_b1c22.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dbwkly/src.cxx"
+        G__~1.EXE: error: unrecognized command-line option '-wd654'
+        G__~1.EXE: error: unrecognized command-line option '-wd654'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:220 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-955l4b"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-955l4b"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-955l4b
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_82d59 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety -std=gnu++20 -fdiagnostics-color=always   -Wthread-safety -o CMakeFiles/cmTC_82d59.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-955l4b/src.cxx"
+        FAILED: CMakeFiles/cmTC_82d59.dir/src.cxx.obj 
+        C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety -std=gnu++20 -fdiagnostics-color=always   -Wthread-safety -o CMakeFiles/cmTC_82d59.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-955l4b/src.cxx"
+        G__~1.EXE: error: unrecognized command-line option '-Wthread-safety'
+        G__~1.EXE: error: unrecognized command-line option '-Wthread-safety'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:271 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nil5he"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nil5he"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nil5he
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_f6808 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_CXX_FLAG_COVERAGE  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage -std=gnu++20 -fdiagnostics-color=always   --coverage -o CMakeFiles/cmTC_f6808.dir/src.cxx.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nil5he/src.cxx"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage  CMakeFiles/cmTC_f6808.dir/src.cxx.obj -o cmTC_f6808.exe -Wl,--out-implib,libcmTC_f6808.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:300 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_fabbc && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -fdiagnostics-color=always -o CMakeFiles/cmTC_fabbc.dir/std_regex.cpp.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/std_regex.cpp"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  CMakeFiles/cmTC_fabbc.dir/std_regex.cpp.obj -o cmTC_fabbc.exe -Wl,--out-implib,libcmTC_fabbc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:301 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_62da4 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -fdiagnostics-color=always -o CMakeFiles/cmTC_62da4.dir/gnu_posix_regex.cpp.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/gnu_posix_regex.cpp"
+        FAILED: CMakeFiles/cmTC_62da4.dir/gnu_posix_regex.cpp.obj 
+        C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -fdiagnostics-color=always -o CMakeFiles/cmTC_62da4.dir/gnu_posix_regex.cpp.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/gnu_posix_regex.cpp"
+        C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/gnu_posix_regex.cpp:1:10: fatal error: gnuregex.h: No such file or directory
+            1 | #include <gnuregex.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:302 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_71040 && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -fdiagnostics-color=always -o CMakeFiles/cmTC_71040.dir/posix_regex.cpp.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/posix_regex.cpp"
+        FAILED: CMakeFiles/cmTC_71040.dir/posix_regex.cpp.obj 
+        C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -fdiagnostics-color=always -o CMakeFiles/cmTC_71040.dir/posix_regex.cpp.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/posix_regex.cpp"
+        C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/posix_regex.cpp:1:10: fatal error: regex.h: No such file or directory
+            1 | #include <regex.h>
+              |          ^~~~~~~~~
+        compilation terminated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt:311 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/Modules;C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Users/Julian Meister/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/win/x64/ninja.exe -v cmTC_1b3bf && [1/2] C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -fdiagnostics-color=always -o CMakeFiles/cmTC_1b3bf.dir/steady_clock.cpp.obj -c "C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/googlebenchmark-src/cmake/steady_clock.cpp"
+        [2/2] cmd.exe /C "cd . && C:\\Users\\JULIAN~1\\AppData\\Local\\JETBRA~1\\Toolbox\\apps\\CLion\\ch-0\\232992~1.42\\bin\\mingw\\bin\\G__~1.EXE -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  CMakeFiles/cmTC_1b3bf.dir/steady_clock.cpp.obj -o cmTC_1b3bf.exe -Wl,--out-implib,libcmTC_1b3bf.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+...

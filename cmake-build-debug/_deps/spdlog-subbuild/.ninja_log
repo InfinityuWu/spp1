@@ -1,0 +1,21 @@
+# ninja log v5
+1	74	7215151545950289	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	37ce4dbe3e11b3c2
+1	74	7215151545950289	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	37ce4dbe3e11b3c2
+74	9903	7215151644257321	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	8abb450eb7b98c05
+74	9903	7215151644257321	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	8abb450eb7b98c05
+9904	10077	0	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	6f37cc2f717b14df
+9904	10077	0	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	6f37cc2f717b14df
+10078	10146	7215151646683341	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	9e04e8e7cebf1161
+10078	10146	7215151646683341	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	9e04e8e7cebf1161
+10146	10216	7215151647379399	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	5bd4c1f76de527a9
+10146	10216	7215151647379399	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	5bd4c1f76de527a9
+10217	10285	7215151648072301	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	66e447bf3133da6e
+10217	10285	7215151648072301	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	66e447bf3133da6e
+10285	10354	7215151648762895	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	b1d7d787b8dd8982
+10285	10354	7215151648762895	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	b1d7d787b8dd8982
+10354	10433	7215151649522509	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	d4efd84225aa41cd
+10354	10433	7215151649522509	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	d4efd84225aa41cd
+10433	10543	7215151650650060	CMakeFiles/spdlog-populate-complete	1cc33467a1995e46
+10433	10543	7215151650650060	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	1cc33467a1995e46
+10433	10543	7215151650650060	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete	1cc33467a1995e46
+10433	10543	7215151650650060	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	1cc33467a1995e46

@@ -1,0 +1,21 @@
+# ninja log v5
+1	88	7215151461920604	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	af9899353409c7ba
+1	88	7215151461920604	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	af9899353409c7ba
+89	6966	7215151530703904	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	d7dd675c9e387440
+89	6966	7215151530703904	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	d7dd675c9e387440
+6966	7134	0	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	884c7373a530506b
+6966	7134	0	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	884c7373a530506b
+7135	7199	7215151533037835	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	df8e1f19d7a96b1c
+7135	7199	7215151533037835	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	df8e1f19d7a96b1c
+7199	7267	7215151533734557	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	1f5d09e8859adaa3
+7199	7267	7215151533734557	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	1f5d09e8859adaa3
+7268	7343	7215151534480932	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	4128f4a42cecc56b
+7268	7343	7215151534480932	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	4128f4a42cecc56b
+7343	7412	7215151535178261	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	58efaed02ea52b01
+7343	7412	7215151535178261	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	58efaed02ea52b01
+7413	7478	7215151535835133	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	50180af1c4e19439
+7413	7478	7215151535835133	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	50180af1c4e19439
+7478	7567	7215151536724219	CMakeFiles/fmt-populate-complete	6bcbecf9f3535b31
+7478	7567	7215151536724219	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	6bcbecf9f3535b31
+7478	7567	7215151536724219	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate-complete	6bcbecf9f3535b31
+7478	7567	7215151536724219	C:/Users/Julian Meister/.vscode/lab1/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	6bcbecf9f3535b31
