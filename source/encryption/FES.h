@@ -108,7 +108,7 @@ public:
             block_type previous = convert_key_to_block(key);
             for(int x = 0; x < image.get_width(); x + 48){
                 block_type current = image.get_block(y,x);
-                image.set_block(y, x, encrypt_block(current, previous));
+                encryptedImage.set_block(y, x, encrypt_block(current, previous));
             }
         }
 
