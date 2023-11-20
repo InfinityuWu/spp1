@@ -69,20 +69,20 @@ public:
         block_type encryptedBlock = block_type();
         row_type allSoFarCombinedRows;
 
-		// actual dimensions
-		int blockWidth = (current.at(0).at(2) != 0) ? 3 : ((current.at(0).at(1) != 0) ? 2 : 1);
-		int blockHeight = (current.at(2).at(0) != 0) ? 3 : ((current.at(1).at(0) != 0) ? 2 : 1);
+	// actual dimensions
+	int blockWidth = (current.at(0).at(2) != 0) ? 3 : ((current.at(0).at(1) != 0) ? 2 : 1);
+	int blockHeight = (current.at(2).at(0) != 0) ? 3 : ((current.at(1).at(0) != 0) ? 2 : 1);
 
-		if (blockWidth == 3 && blockHeight == 3) {
-			
-			for (int y = 0; y < 3; y++) {
-				for (int x = 0; x < 3; x++) {
-					encryptedBlock.at(y).at(x) = combine_rows(current.at(y).at(x), previous.at(y).at(x));
-					for (int h = 0; h <= y; h++) for (int w = 0; w < x; w++) encrypt_block.at(y).at(x) = combine_rows(current.at(y).at(x), encryptedBlock.at(h).at(w));
-				}
+	if (blockWidth == 3 && blockHeight == 3) {
+		
+		for (int y = 0; y < 3; y++) {
+			for (int x = 0; x < 3; x++) {
+				encryptedBlock.at(y).at(x) = combine_rows(current.at(y).at(x), previous.at(y).at(x));
+				for (int h = 0; h <= y; h++) for (int w = 0; w < x; w++) encrypt_block.at(y).at(x) = combine_rows(encryptedBlock.at(y).at(x), encryptedBlock.at(h).at(w));
 			}
-			
 		}
+		
+	}
 
         return encryptedBlock;
         
