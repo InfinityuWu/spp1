@@ -78,7 +78,7 @@ public:
 		for (int y = 0; y < 3; y++) {
 			for (int x = 0; x < 3; x++) {
 				encryptedBlock.at(y).at(x) = combine_rows(current.at(y).at(x), previous.at(y).at(x));
-				for (int h = 0; h <= y; h++) for (int w = 0; w < x; w++) encrypt_block.at(y).at(x) = combine_rows(encryptedBlock.at(y).at(x), encryptedBlock.at(h).at(w));
+				for (int h = 0; h <= y; h++) for (int w = 0; w < x; w++) encryptedBlock.at(y).at(x) = combine_rows(encryptedBlock.at(y).at(x), encryptedBlock.at(h).at(w));
 			}
 		}
 		
